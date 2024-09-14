@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures the page content is encoded in UTF-8, a standard character set for web pages -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ensures proper scaling on mobile devices by setting the viewport width to the device width -->
+
+    <title>Portfolio website</title>
+    <!-- Title that appears in the browser tab -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Links an external CSS file to style the webpage -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Links to Font Awesome for using icons in your website -->
+</head>
+
+<body>
+  <header>
+    <!-- This is the top section/navigation -->
+    <div class="top">
+      <nav>
+        <h2 class="logo">Dalmas<span>Ouma</span></h2>
+        <!-- Logo for your website, using <span> to style the last name differently -->
+
+        <ul>
+           <li><a href="#about">About</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#projects">Projects</a></li>
+           <li><a href="#contact">Contact</a></li>
+           <!-- Navigation links, each corresponding to sections within the page -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="greetings">
+    <!-- This section introduces the website -->
+    <h4>Hello, this is my</h4>
+    <h1>Portfo<span>lio.</span></h1>
+    <!-- Highlighting part of the word using <span> for extra styling -->
+    <h3>I am a Web Developer.</h3>
+
+    <div class="in_touch">
+      <!-- Contact form for visitors to submit their email -->
+      <form>
+        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+        <input type="submit" name="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <!-- "About Me" section with a brief introduction -->
+    <div class="main">
+      <img src="AboutIMG2.jpeg">
+      <!-- Image to visually represent the About section -->
+      <div class="about-text">
+      <h2>About Me</h2>
+      <h5>Front-end <span>Developer</span></h5>
+      <p>I’m a passionate web developer who thrives on building dynamic digital experiences...</p>
+      <!-- Personal description highlighting your skills and qualities -->
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <!-- Skills section highlighting your technical abilities -->
+     <div>
+       <h2>Ski<span>lls</span></h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <!-- Listing your core technical skills -->
+         </ul>
+      </div>
+
+      <div id="education">
+        <!-- Education section -->
+        <h2>Educat<span>ion</span></h2>
+        <p>Diploma in Mechanical Engineering in Kenya Polytechnic University College.</p>
+        <a href="My_CVcopy.pdf" download>Download my CV</a>
+        <!-- Link to download your CV -->
+      </div>
+  </section>
+
+  <section id="projects">
+    <!-- Projects section where you showcase your work -->
+    <h2>Projects</h2>
+    <ul>
+      <li>This is my first project.</li>
+      <!-- Placeholder for listing your projects, can be expanded with more detailed descriptions -->
+    </ul>
+  </section>
+    
+  <section class="contact" id="contact">
+    <!-- Contact section with form and personal details -->
+    <div class="contact-form">
+      <h2>Contact <span>Me</span></h2>
+      <p>Email : oumadalmas@gmail.com</p>
+      <p>Phone : +254 710569046</p>
+      <!-- Personal contact information -->
+
+      <form action="">
+        <!-- Contact form for visitors to send messages -->
+        <input type="" placeholder="Your Name" required>
+        <input type="email" name="email" id="" placeholder="Email" required>
+        <input type="" placeholder="Write a subject" required>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" name="" value="Submit" class="subMit">
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,337 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /* Reset all padding and margins, set default font, and use border-box model */
+}
+
+.top{
+  height: 100vh;
+  width: 100%;
+  background-image: url(imageX1.jpeg);
+  background-size: cover;
+  background-position: center;
+  /* Set the top section to take full viewport height with a background image */
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+  /* Flexbox navigation, centered with padding on the sides */
+}
+
+.logo{
+  color: black;
+  font-size: 75px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  /* Styling for the logo with large font size and slight letter spacing */
+}
+
+span{
+  color: darkred;
+  /* Style for any <span> inside the logo */
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  /* List items in the nav as inline blocks with padding and bold, capitalized text */
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  /* Anchor tags inside nav list items, styled without underlines and larger font */
+}
+
+nav ul li a:hover{
+  color: darkred;
+  transition: 1s;
+  /* Hover effect to change link color with a smooth transition */
+}
+
+.greetings{
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  /* Center greetings section vertically */
+}
+
+h1{
+  color: black;
+  margin: 20px 0px 20px;
+  font-size: 45px;
+  /* Main heading in the greetings section */
+}
+
+h3{
+  color: black;
+  font-size: 25px;
+  margin-bottom: 50px;
+  /* Subheading in the greetings section */
+}
+
+h4{
+  color: rgb(161, 10, 37);
+  letter-spacing: 2px;
+  font-size: 20px;
+  /* Another heading styled with letter spacing */
+}
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background: #fff;
+  /* Basic styling for all sections with margin, padding, and white background */
+}
+
+.in_touch form{
+  width: 380px;
+  max-width: 100%;
+  position: relative;
+  /* Contact form styling with relative positioning */
+}
+
+.in_touch form input:first-child{
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid darkred;
+  outline: none;
+  border-radius: 30px;
+  /* Styling for the email input field */
+}
+
+.in_touch form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: darkred;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  top: 6px;
+  right: 6px;
+  /* Styling for the submit button */
+}
+
+.about{
+  width: 100%;
+  padding: 100px 0px;
+  background-color: #191919;
+  /* About section with dark background and padding */
+}
+
+.about img{
+  height: auto;
+  width: 430px;
+  /* Image inside the About section */
+}
+
+.about-text{
+  width: 550px;
+  /* Text section in the About section */
+}
+
+.main{
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Flexbox container for the About section content */
+}
+
+.about-text h2{
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  /* Main heading in About section */
+}
+
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  /* Subheading in About section */
+}
+
+.about-text p{
+  color: #fcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  /* Paragraph text in About section */
+}
+
+.skills{
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-left: 50px;
+  /* Skills section with white background and flex alignment */
+}
+
+#skills ul{
+  margin: 10px 0px 0px 15px;
+  /* Skills list styling */
+}
+
+#education p{
+  margin: 10px 0px;
+  /* Paragraph in Education section */
+}
+
+#skills{
+  width: 550px;
+  letter-spacing: 2px;
+  /* Skills container */
+}
+
+#skills h2{
+  color: black;
+  /* Skills section heading */
+}
+
+#education{
+  width: 550px;
+  /* Education section styling */
+}
+
+#education a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  /* Link to CV in Education section */
+}
+
+a:hover {
+  color: darkred;
+  /* Hover effect for links */
+}
+
+#projects{
+  width: 100%;
+  padding: 20px 30px;
+  background-color: white;
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  margin-left: 0px;
+  color: white;
+  background-color: black;
+  /* Projects section with black background */
+}
+
+#projects a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  /* Links in the Projects section */
+}
+
+#projects a:hover {
+  color: darkred;
+  transition: 4s;
+  /* Hover effect for project links */
+}
+
+#projects h2{
+  letter-spacing: 2px;
+  /* Heading in Projects section */
+}
+
+.contact{
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 6rem;
+  /* Grid layout for the Contact section */
+}
+
+.contact-form h2{
+  font-size: 25px;
+  color: black;
+  margin-bottom: 20px;
+  /* Contact section heading */
+}
+
+.contact-form p{
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  /* Paragraph text in Contact section */
+}
+
+.contact-form form{
+  position: relative;
+  /* Form inside the Contact section */
+}
+
+.contact-form form input, form textarea{
+  width: 50%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background: #191919;
+  color: white;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+  /* Input and textarea fields in the contact form */
+}
+
+.contact-form textarea{
+  resize: none;
+  height: 200px;
+  /* Textarea inside the contact form */
+}
+
+.contact-form form .subMit{
+  display: inline-block;
+  background: darkred;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  transition: ease .20s;
+  cursor: pointer;
+  /* Submit button styling */
+}
+
+.contact-form form .subMit:hover{
+  border: 2px solid darkred;
+  background: transparent;
+  transform: scale(1.1);
+  /* Hover effect for the submit button */
+}
